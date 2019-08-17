@@ -22,9 +22,117 @@
 .App-link {
   color: #61dafb;
 }
+
+.nav-container{
+  width: 100%;
+  height: 64px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-bottom: 1px solid rgb(222, 210, 210);
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+}
+
+.search-container{
+  background-color: rgb(239, 239, 239);
+  border-radius: 8px;
+}
+
 .fa-tv{
 color: blue;
 }
+
+.fa-pinterest{
+  color:#e60023;
+  font-size: 28px;
+}
+
+.fa-search,.fa-times,.fa-chevron-down,.fa-user-friends, .fa-circle, .fa-comment-dots, .fa-bell, .fa-ellipsis-h{
+  color: rgb(142, 142, 142);
+  font-size: 20px;
+}
+
+.all-pines{
+  text-align: center;
+  font-size: 14px;
+}
+
+.user-container{
+  border-radius: 100px;
+  text-align: center;
+  font-size: smaller;
+}
+
+.list-nav{
+  list-style: none;
+  overflow: hidden;
+  flex-direction: row;
+  display: flex;
+  align-items: center;
+}
+
+.list-nav li{
+  float: left;
+  flex-direction: column;
+  display: flex;
+}
+
+.list-nav li div{
+  padding: 4px;
+  text-decoration: none;
+  flex-direction: row;
+  display: flex;
+}
+.list-nav li div button{
+  border-style: none;
+  background-color: rgb(239, 239, 239);
+  flex-direction: column;
+  display: flex;
+}
+
+.list-nav li div input{
+  font-size: 16px;
+  width: 550px;
+  border-style: none;
+  background-color: rgb(239, 239, 239);
+  display: inline-block;
+}
+
+.center-container{
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.img-container{
+  margin-top: 100px;
+}
+
+img{
+  border-radius: 25px;
+  position: relative;
+  padding: 8px;
+}
+
+.divisor-container{
+  font-size: 16px;
+  color: rgb(222, 210, 210);
+}
+
+.logo-container{
+  width: 48px;
+  height: 48px;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 
 
 @keyframes App-logo-spin {
