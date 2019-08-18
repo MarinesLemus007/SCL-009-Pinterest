@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/SCL-009-Pinterest/static/css/main.f03acd5a.chunk.css",
-    "main.js": "/SCL-009-Pinterest/static/js/main.61813430.chunk.js",
-    "main.js.map": "/SCL-009-Pinterest/static/js/main.61813430.chunk.js.map",
+    "main.css": "/SCL-009-Pinterest/static/css/main.35c1ba14.chunk.css",
+    "main.js": "/SCL-009-Pinterest/static/js/main.3d45c98f.chunk.js",
+    "main.js.map": "/SCL-009-Pinterest/static/js/main.3d45c98f.chunk.js.map",
     "runtime~main.js": "/SCL-009-Pinterest/static/js/runtime~main.3da067ad.js",
     "runtime~main.js.map": "/SCL-009-Pinterest/static/js/runtime~main.3da067ad.js.map",
     "static/css/2.8883b4a4.chunk.css": "/SCL-009-Pinterest/static/css/2.8883b4a4.chunk.css",
-    "static/js/2.4371583b.chunk.js": "/SCL-009-Pinterest/static/js/2.4371583b.chunk.js",
-    "static/js/2.4371583b.chunk.js.map": "/SCL-009-Pinterest/static/js/2.4371583b.chunk.js.map",
+    "static/js/2.fc581f17.chunk.js": "/SCL-009-Pinterest/static/js/2.fc581f17.chunk.js",
+    "static/js/2.fc581f17.chunk.js.map": "/SCL-009-Pinterest/static/js/2.fc581f17.chunk.js.map",
     "index.html": "/SCL-009-Pinterest/index.html",
-    "precache-manifest.3ad081f6fab2f74eae001906e6ffe702.js": "/SCL-009-Pinterest/precache-manifest.3ad081f6fab2f74eae001906e6ffe702.js",
+    "precache-manifest.746aeb5f3f8332db591174f723e98ae3.js": "/SCL-009-Pinterest/precache-manifest.746aeb5f3f8332db591174f723e98ae3.js",
     "service-worker.js": "/SCL-009-Pinterest/service-worker.js",
     "static/css/2.8883b4a4.chunk.css.map": "/SCL-009-Pinterest/static/css/2.8883b4a4.chunk.css.map",
-    "static/css/main.f03acd5a.chunk.css.map": "/SCL-009-Pinterest/static/css/main.f03acd5a.chunk.css.map",
+    "static/css/main.35c1ba14.chunk.css.map": "/SCL-009-Pinterest/static/css/main.35c1ba14.chunk.css.map",
     "static/media/all.css": "/SCL-009-Pinterest/static/media/fa-solid-900.fdc155d5.svg"
   }
 }
