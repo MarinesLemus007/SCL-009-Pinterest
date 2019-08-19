@@ -9,13 +9,16 @@ const pathBase = 'https://api.unsplash.com/search/photos';
 class Key extends React.Component{
 
   constructor(props){
-    super(props)
+    super(props);
       this.field ='';
       this.valueField = this.valueField.bind(this);
       this.search = this.search.bind(this);
       this.openModal = this.openModal.bind(this);
       this.closeModal = this.closeModal.bind(this);
+      this.toggleClass= this.toggleClass.bind(this);
+      this.offToggleClass= this.offToggleClass.bind(this);
       this.state= {
+        active: false,
         images:[],
         isModalOpen: false
       }
@@ -68,6 +71,13 @@ class Key extends React.Component{
     this.setState({ isModalOpen: false })
   }
   
+  toggleClass() {
+    this.setState({ active: true });
+  }
+  
+  offToggleClass(){
+    this.setState({ active: false })
+  }
 
    render(){
       return (
@@ -83,10 +93,12 @@ class Key extends React.Component{
               </li>
                 
               <li>
-                <div className="search-container">  
+                  <div className="search-container">
+                  <div className={this.state.active ? "border-search": null} onMouseEnter={this.toggleClass}  onMouseLeave={this.offToggleClass}>  
                   <button onClick={this.search}><i className="fas fa-search"></i></button>
                   <input type='text' placeholder="Buscar" onChange={this.valueField}/>
                   <button><i className="fas fa-times"></i></button>
+                  </div>
                   <div className="all-pines">Todos los pines
                     <button><i className="fas fa-chevron-down"></i></button>
                   </div>

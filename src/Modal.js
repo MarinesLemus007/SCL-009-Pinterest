@@ -1,17 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom'
+// import ReactDOM from 'react-dom'
 
 class Modal extends React.Component{
     render(){
-        return ReactDOM.createPortal(
+        const onClose = this.props;
+        // return ReactDOM.createPortal(
+            return(
             <div className="modal">
                 <section className="modal-body">
                     <h1>Modal de Prueba</h1>
                     <p>Modal para las imágenes</p>
-                    <button onClick={this.props.closedModal}>Cerrar</button>
+                    <button onClick={onClose}>Cerrar</button>
                 </section>
-            </div>,
-            document.getElementById('modal')
+            </div>
+            // document.getElementById('modal')
         )
     }
 }
