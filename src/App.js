@@ -180,7 +180,7 @@ class Key extends React.Component{
                 dataLength={this.state.images.length}
                 next={this.fetchData}
                 hasMore={true}
-                loader={<p>Cargando.. ...</p>}
+                loader={<i className="fas fa-spinner"></i>}
               >
                 {this.images()}
               </InfiniteScroll>
