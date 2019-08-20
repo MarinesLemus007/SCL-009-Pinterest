@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2b460a78965b398de5a87e882829cbbb",
+    "revision": "0ec526feeec9209ced8a4a7309d136df",
     "url": "/SCL-009-Pinterest/index.html"
   },
   {
-    "revision": "b91380e9433e9139f823",
+    "revision": "939741da761a4134d611",
     "url": "/SCL-009-Pinterest/static/css/2.8883b4a4.chunk.css"
   },
   {
-    "revision": "0de720871eb88a695fa1",
-    "url": "/SCL-009-Pinterest/static/css/main.ebd09a7e.chunk.css"
+    "revision": "c7185d1eefbf5d067c4f",
+    "url": "/SCL-009-Pinterest/static/css/main.4098b8a5.chunk.css"
   },
   {
-    "revision": "b91380e9433e9139f823",
-    "url": "/SCL-009-Pinterest/static/js/2.8c413a85.chunk.js"
+    "revision": "939741da761a4134d611",
+    "url": "/SCL-009-Pinterest/static/js/2.e733712c.chunk.js"
   },
   {
-    "revision": "0de720871eb88a695fa1",
-    "url": "/SCL-009-Pinterest/static/js/main.f3a134d6.chunk.js"
+    "revision": "c7185d1eefbf5d067c4f",
+    "url": "/SCL-009-Pinterest/static/js/main.4a59fb37.chunk.js"
   },
   {
     "revision": "3144f90f57c4d259a285",
