@@ -1,36 +1,16 @@
 import React from 'react';
-// import ReactDOM from 'react-dom'
 
-class Modal extends React.Component{
-    render(){
-        const onClose = this.props;
-        // return ReactDOM.createPortal(
-            return(
-            <div className="modal">
-                <section className="modal-body">
-                    <h1>Modal de Prueba</h1>
-                    <p>Modal para las imágenes</p>
-                    <button onClick={onClose}>Cerrar</button>
-                </section>
-            </div>
-            // document.getElementById('modal')
-        )
-    }
+const Modal = ({isModalOpen, onClose, urlImg}) =>{
+    const classNameModal= isModalOpen? "modal display-block": "modal display-none";
+    return(
+        <div className={classNameModal}>
+            <section className="modal-body">
+                <img src={urlImg} alt="Not Fount"/>
+                <button onClick={onClose}>Cerrar</button>
+                <button><i class="fas fa-upload"></i></button>
+                <i class="fas fa-thumbtack"></i>
+            </section>
+        </div>
+    )
 }
 export default Modal;
-
-// class Modal extends React.Component {
-//     render () {
-//       const { isOpen, onClose } = this.props;
-   
-//       return (
-//         <div className={isOpen ? 'modal modal--is-open' : 'modal'}>
-//           <button onClick={onClose}>close</button>
-   
-//           <p>Hello! I am a modal.</p>
-//         </div>
-//       );
-//     }
-//   }
-  
-//   ReactDOM.render( <Modal />,document.getElementById('react-container'));
