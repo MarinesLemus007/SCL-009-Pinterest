@@ -15,8 +15,18 @@ const Modal = ({isModalOpen, onClose, urlImg}) =>{
                     </div>
                 </nav>
                 <div className="modal-img">
-                    <img src={urlImg} alt="Not Fount"/>    
-                </div>   
+                    <img src={urlImg} alt="Not Fount"/>
+                    <div className="modal-coment">
+                        <div className="modal-coment-content">
+                            <strong>Comentarios</strong>
+                        
+                            <div className="modal-coment-content-two">    
+                                <i className="fas fa-chevron-down"></i>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                 
             </section>
              <div className="times-modal">
                 <div className="content-button">
