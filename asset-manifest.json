@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/SCL-009-Pinterest/static/css/main.79068a69.chunk.css",
+    "main.css": "/SCL-009-Pinterest/static/css/main.c2a4de34.chunk.css",
     "main.js": "/SCL-009-Pinterest/static/js/main.a378ece4.chunk.js",
     "main.js.map": "/SCL-009-Pinterest/static/js/main.a378ece4.chunk.js.map",
     "runtime~main.js": "/SCL-009-Pinterest/static/js/runtime~main.3da067ad.js",
@@ -9,10 +9,10 @@
     "static/js/2.549a21b9.chunk.js": "/SCL-009-Pinterest/static/js/2.549a21b9.chunk.js",
     "static/js/2.549a21b9.chunk.js.map": "/SCL-009-Pinterest/static/js/2.549a21b9.chunk.js.map",
     "index.html": "/SCL-009-Pinterest/index.html",
-    "precache-manifest.f0a9820026c6de32a006172e3230d851.js": "/SCL-009-Pinterest/precache-manifest.f0a9820026c6de32a006172e3230d851.js",
+    "precache-manifest.3c7646f20bbe4754337b7683c70c1322.js": "/SCL-009-Pinterest/precache-manifest.3c7646f20bbe4754337b7683c70c1322.js",
     "service-worker.js": "/SCL-009-Pinterest/service-worker.js",
     "static/css/2.8883b4a4.chunk.css.map": "/SCL-009-Pinterest/static/css/2.8883b4a4.chunk.css.map",
-    "static/css/main.79068a69.chunk.css.map": "/SCL-009-Pinterest/static/css/main.79068a69.chunk.css.map",
+    "static/css/main.c2a4de34.chunk.css.map": "/SCL-009-Pinterest/static/css/main.c2a4de34.chunk.css.map",
     "static/media/all.css": "/SCL-009-Pinterest/static/media/fa-solid-900.fdc155d5.svg"
   }
 }
