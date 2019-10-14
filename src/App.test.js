@@ -67,6 +67,11 @@ describe('Encontrar etiquetas dentro del componente Modal', () => {
     expect(button.find('button').length).toEqual(3);
   });
 
+  it('Debería encontrar la etiqueta nav dentro de <Modal/>', () => {
+    const nav = shallow(<Modal/>);
+    expect(nav.find('nav').length).toEqual(1);
+  });
+
 })
 
 describe('Encontrar etiquetas dentro del componente Key', () => {
@@ -74,6 +79,16 @@ describe('Encontrar etiquetas dentro del componente Key', () => {
   it('Debería encontrar la etiqueta button dentro de <Key/>', () => {
     const button = shallow(<Key/>);
     expect(button.find('button').length).toEqual(3);
+  });
+
+  it('Debería encontrar la etiqueta nav dentro de <Key/>', () => {
+    const nav = shallow(<Key/>);
+    expect(nav.find('nav').length).toEqual(1);
+  });
+
+  it('Debería encontrar la etiqueta input dentro de <Key/>', () => {
+    const input = shallow(<Key/>);
+    expect(input.find('input').length).toEqual(1);
   });
 
 })
